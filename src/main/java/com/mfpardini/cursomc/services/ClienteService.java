@@ -15,8 +15,6 @@ import com.mfpardini.cursomc.domain.Cidade;
 import com.mfpardini.cursomc.domain.Cliente;
 import com.mfpardini.cursomc.domain.Endereco;
 import com.mfpardini.cursomc.domain.enums.TipoCliente;
-import com.mfpardini.cursomc.domain.Cliente;
-import com.mfpardini.cursomc.domain.Cliente;
 import com.mfpardini.cursomc.dto.ClienteDTO;
 import com.mfpardini.cursomc.dto.ClienteNewDTO;
 import com.mfpardini.cursomc.repositories.ClienteRepository;

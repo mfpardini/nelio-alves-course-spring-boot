@@ -8,6 +8,7 @@ import javax.validation.constraints.NotEmpty;
 import org.hibernate.validator.constraints.Length;
 
 import com.mfpardini.cursomc.domain.Cliente;
+import com.mfpardini.cursomc.services.validation.ClienteInsert;
 
 public class ClienteDTO implements Serializable {
 
