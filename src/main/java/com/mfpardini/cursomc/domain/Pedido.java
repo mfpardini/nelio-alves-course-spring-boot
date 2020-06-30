@@ -53,6 +53,14 @@ public class Pedido implements Serializable {
 		this.cliente = cliente;
 		this.enderecoDeEntrega = enderecoDeEntrega;
 	}
+	
+	public double getValorTotal() {
+		double soma = 0.0;
+		for (ItemPedido ip : itens) {
+			soma = soma + ip.getSubtotal();
+		}
+		return soma;
+	}
 
 	public Integer getId() {
 		return id;
@@ -66,7 +74,7 @@ public class Pedido implements Serializable {
 		return instante;
 	}
 
-	public void setIntante(Date instante) {
+	public void setInstante(Date instante) {
 		this.instante = instante;
 	}
 
