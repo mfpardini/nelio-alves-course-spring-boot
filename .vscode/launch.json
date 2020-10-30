@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-CursomcApplication<cursomc>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.mfpardini.cursomc.CursomcApplication",
+            "projectName": "cursomc",
+            "args": ""
+        }
+    ]
+}
